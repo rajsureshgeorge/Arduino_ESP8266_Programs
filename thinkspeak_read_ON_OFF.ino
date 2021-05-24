@@ -34,7 +34,7 @@ void loop()
 {
    // put your main code here, to run repeatedly:
     a=digitalRead (12);
-    int x = ThingSpeak.writeField(814449, 1, a, "P7QNHESL6RCSDZJ6"); 
+    int x = ThingSpeak.writeField(814449, 1, a, "id"); 
     
         if(x == 200)
     {
@@ -46,7 +46,7 @@ void loop()
     }
 
    float val=0; 
-   val = ThingSpeak.readFloatField(814449,1,"W5JIRPWB9TQTMSVP");       //giving chanel_ID and field num for reading thingspeak
+   val = ThingSpeak.readFloatField(814449,1,"id");       //giving chanel_ID and field num for reading thingspeak
    Serial.println(val);  //reading status code if value is read then it will return 200
 
    if(val == 1)                              

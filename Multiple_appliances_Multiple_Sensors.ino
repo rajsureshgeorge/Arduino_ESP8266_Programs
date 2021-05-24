@@ -1,5 +1,5 @@
 //Muttiple Appliances Multiple Sensor
- *************************************************************/
+/*************************************************************/
 
 /* Comment this out to disable prints and save space */
 #define BLYNK_PRINT Serial
@@ -34,7 +34,7 @@ int light;
 int gas;
 int motion;
 // You should get Auth Token in the Blynk App.
-// Go to the Project Settings (nut icon).
+// Go to the Project Settings.
 char auth[] = "Blynk_Token";
 
 // Uncomment whatever type you're using!

@@ -4,7 +4,7 @@ WiFiServer drogon(80);
 void setup() {
 Serial.begin(9600);
 WiFi.mode (WIFI_AP);
-WiFi.softAP("Raj","qwertyuiop");
+WiFi.softAP("Your Wifi SSID","Your Wifi password");
 Serial.println(WiFi.softAPIP());
 drogon.begin();
 }

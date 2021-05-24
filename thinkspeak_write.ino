@@ -40,7 +40,7 @@ void loop()
         Serial.println("Channel update successful.");
     }
     else
-    {
+    {    
         Serial.println("Problem updating channel. HTTP error code " + String(x));
     }
 

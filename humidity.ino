@@ -43,6 +43,7 @@ Serial.print("Temperature (C) = ");
 Serial.println(tempC);
 
 Serial.print("Humidity = ");
+}
 Serial.println(humidity);
 delay(3000);
 }

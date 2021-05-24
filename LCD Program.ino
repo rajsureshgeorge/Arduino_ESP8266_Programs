@@ -34,5 +34,5 @@ lcd.clear();
   lcd.cursor();
   delay (1000);
   lcd.noCursor();
-  delay(1000);
+  delay(1000);}
 }
